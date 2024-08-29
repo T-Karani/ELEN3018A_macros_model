@@ -13,13 +13,16 @@
 
    ```bash
    python Model.py
+   ```
    
 ## Prerequisites
 Python: Ensure Python 3.x is installed. You can download it from python.org.
 
 Matplotlib: Required for plotting the GDP graph. Install it using the command:
 
-pip install matplotlib
+   ```bash
+   pip install matplotlib
+   ```
 
 ## Installation
 To set up your environment, follow these steps:
@@ -36,4 +39,5 @@ Any economic shocks and their occurrence times will be printed to the console.
 
 ## Troubleshooting
 Error: ModuleNotFoundError: No module named 'matplotlib': Ensure that Matplotlib is correctly installed using pip install matplotlib.
+
 Graph Not Displaying: Check if the Matplotlib backend is set up correctly for your environment. Running the code in a different environment (like Jupyter Notebook or a command-line interface) may help.
